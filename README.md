@@ -13,7 +13,7 @@ This repository contains a complete setup for Linux-based servers with a focus o
 
 1. **Clone this repository** to your Linux server:
    ```bash
-   git clone <repository-url> /opt/linux-server-setup
+   git clone <https://github.com/Neok1ra/linux-server-setup.git> /opt/linux-server-setup
    ```
 
 2. **Run the main setup script** as root:
@@ -193,9 +193,6 @@ For PostgreSQL administration, run:
 sudo /opt/linux-server-setup/scripts/postgresql-admin.sh
 ```
 
-## Recent Enhancements
-
-For details on recent enhancements to the system, see [ENHANCEMENTS.md](file:///c%3A/Users/iitsm/New%20folder%20%283%29/linux-server-setup/ENHANCEMENTS.md) which includes:
 
 - Conditional installation of scalability components
 - Enhanced backup solution with remote storage support
